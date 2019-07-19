@@ -1,0 +1,24 @@
+{
+  "name": "unified-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "ssh://git@github.com/konojunya/unified-sample",
+  "author": "konojunya <junya03dance@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "^16.8.4",
+    "parcel": "^1.12.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "rehype-format": "^2.3.2",
+    "rehype-stringify": "^6.0.0",
+    "remark-parse": "^6.0.3",
+    "remark-rehype": "^4.0.1",
+    "typescript": "^3.5.3",
+    "unified": "^8.3.2"
+  }
+}
